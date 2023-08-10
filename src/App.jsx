@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import Management from './components/pages/Management'
 import News from './components/pages/News'
 import './sass/global.scss'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/managements' element={<Management />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
