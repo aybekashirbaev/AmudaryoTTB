@@ -92,14 +92,12 @@ body {
   margin: 0;
   flex-direction: column;
   width: 100%;
-
   .nav-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1E2E60;
     padding: 15px 20px;
-
     .nav-head-contact {
       padding: 0;
       a{
@@ -144,13 +142,15 @@ body {
     }
   }
   .navbar{
-    transition: .5s ease;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
     background-color: #1F73CF;
+    position: fixed;
+    width: 100%;
+    transition: .5s ease-in-out;
     .logo{
       @include logo;
     }
@@ -243,8 +243,9 @@ body {
       font-size: 2.6rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 2rem;
       margin-bottom: 25px;
+      font-family: $globalFont;
     }
     a {
       @include button();
@@ -257,6 +258,7 @@ body {
       margin-left: 0;
       p {
         font-family: $globalFont2;
+        font-size: 1.5rem;
       }
     }
   }

@@ -7,15 +7,13 @@ const Home = () => {
         <div class="home-title" data-aos="fade-up">
           <h1>Amudaryo TTB</h1>
           <p>
-            Ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vitae
-            placeat quo modi repellat corporis molestiae numquam necessitatibus
-            sit accusantium cum assumenda cumque, natus ut autem deleniti, earum
-            ullam. Explicabo.
+            XALQIMIZ SALOMATLIGI HAMMA NARSADAN USTUN VA QADRLI.
+            SH.MIRZIYOYEV
           </p>
           <Link to="/news">Yangiliklar</Link>
         </div>
       </div>
-      
+
     </div>
   );
 };

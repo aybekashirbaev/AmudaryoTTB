@@ -11,7 +11,7 @@ const Navbar = () => {
   var sticky = navbar.offsetTop;
 
   const changeBackground = () => {
-    if(window.scrollY >= 50){
+    if(window.scrollY >= 1){
       setNavbar(true)
     }else{
       setNavbar(false)
@@ -25,10 +25,10 @@ const Navbar = () => {
       <div className="nav-head">
         <div className="nav-head-contact">
           <a href="">
-            <i class="fa-solid fa-envelope"></i> togtabayevshatlyk@gmail.com
+            <i class="fa-solid fa-envelope"></i> amudaryo_ttb@exat.uz
           </a>
-          <a href="tel: +998(94)598-07-47">
-            <i class="fa-solid fa-phone"></i> +998(94)598-07-47
+          <a href="tel: +998(61)515-11-33">
+            <i class="fa-solid fa-phone"></i> +998(61)515-11-33
           </a>
         </div>
         <div className="nav-head-networks">
